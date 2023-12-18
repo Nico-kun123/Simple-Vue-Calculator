@@ -84,11 +84,12 @@ export default {
     },
     calculate() {
       if (this.operator && this.operand && this.result) {
-        this.history = `${this.history} ${this.result}`
-        this.result = eval(`${this.operand} ${this.operator} ${this.result}`)
-        this.operator = ''
-        this.operand = ''
-        this.isCalculated = true
+        this.history = `${this.history} ${this.result}`;
+        const expression = new Function(`return ${this.operand} ${this.operator} ${this.result}`);
+        this.result = expression();
+        this.operator = '';
+        this.operand = '';
+        this.isCalculated = true;
       }
     },
   },

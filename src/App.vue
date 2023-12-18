@@ -10,7 +10,7 @@ header {
 </style>
 
 <script setup>
-import Calc from './components/CalculatorComponent.vue'
+import Calc from '../src/components/CalculatorComponent.vue'
 </script>
 
 <template>
