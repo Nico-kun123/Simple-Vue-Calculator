@@ -28,6 +28,10 @@
 
 # 🖼 Скриншоты
 
+Основное поле калькулятора:
+
+![image](https://github.com/Nico-kun123/Simple-Vue-Calculator/assets/77405288/212dc62c-3341-449c-8883-e8b5f7da0152)
+
 ---
 
 # 💻 Технологии
@@ -62,7 +66,7 @@ npm install
 
 Содержание "package.json":
 
-![image](https://github.com/Nico-kun123/Simple-Form-Validation--Vue-Vuelidate-/assets/77405288/aa7dd5ef-d52e-46f9-b034-58c6808360f5)
+![image](https://github.com/Nico-kun123/Simple-Vue-Calculator/assets/77405288/c9032db6-b395-42fa-9dca-f39a1098de6d)
 
 В проекте есть следующие скрипты:
 
