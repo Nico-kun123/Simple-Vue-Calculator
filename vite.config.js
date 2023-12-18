@@ -14,4 +14,10 @@ export default defineConfig({
     }
   },
   base: './',
+  build: {
+    rollupOptions: {
+      // Убедитесь, что расширения файлов, такие как SVG, не исключены
+      exclude: ['**/*.svg'],
+    },
+  },
 })
